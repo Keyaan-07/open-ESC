@@ -1,0 +1,1281 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5bf7fa2d-60f3-469b-bbfa-619f0dc1c738")
+	(paper "A4")
+	(lib_symbols
+		(symbol "easyeda2kicad:EFM8BB21F16G-C-QFN20"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "EFM8BB21F16G-C-QFN20"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:QFN-20_L3.0-W3.0-P0.50-BL-EP1.7_EFM8BB21F16G"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/SILICON-LABS_SILICON-LABS_EFM8BB21F16G-C-QFN20_EFM8BB21F16G-C-QFN20_C80713.html"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C80713"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "EFM8BB21F16G-C-QFN20_0_1"
+				(rectangle
+					(start -17.78 17.78)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -16.51 16.51)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 5.08 0)
+					(length 2.54)
+					(name "P0.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 2.54 0)
+					(length 2.54)
+					(name "P0.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -2.54 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -20.32 -5.08 0)
+					(length 2.54)
+					(name "RSTB/C2CK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 20.32 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 20.32 270)
+					(length 2.54)
+					(name "P0.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -20.32 90)
+					(length 2.54)
+					(name "P2.0/C2D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 20.32 270)
+					(length 2.54)
+					(name "P0.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -20.32 90)
+					(length 2.54)
+					(name "P1.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "P0.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "P1.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 20.32 270)
+					(length 2.54)
+					(name "P0.5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "P1.4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "P0.6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -20.32 90)
+					(length 2.54)
+					(name "P1.3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 5.08 180)
+					(length 2.54)
+					(name "P0.7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 2.54 180)
+					(length 2.54)
+					(name "P1.0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name "P1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 -5.08 180)
+					(length 2.54)
+					(name "P1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:FD6288Q_C328453"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FD6288Q_C328453"
+				(at 0 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Fortior-Tech-FD6288Q_C328453.html"
+				(at 0 -29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C328453"
+				(at 0 -31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FD6288Q_C328453_0_1"
+				(rectangle
+					(start -16.51 16.51)
+					(end 16.51 -16.51)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -16 16)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 6.35 0)
+					(length 2.54)
+					(name "LIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 3.81 0)
+					(length 2.54)
+					(name "LIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 1.27 0)
+					(length 2.54)
+					(name "LIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -3.81 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -6.35 0)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -11.43 21.59 270)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 19.05 270)
+					(length 2.54)
+					(name "HIN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -19.05 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 19.05 270)
+					(length 2.54)
+					(name "HIN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -19.05 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 19.05 270)
+					(length 2.54)
+					(name "HIN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -1.27 -19.05 90)
+					(length 2.54)
+					(name "LO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 19.05 270)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -19.05 90)
+					(length 2.54)
+					(name "LO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 19.05 270)
+					(length 2.54)
+					(name "VB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -19.05 90)
+					(length 2.54)
+					(name "LO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 19.05 270)
+					(length 2.54)
+					(name "HO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 -19.05 90)
+					(length 2.54)
+					(name "VS3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 6.35 180)
+					(length 2.54)
+					(name "VS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 3.81 180)
+					(length 2.54)
+					(name "VB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 1.27 180)
+					(length 2.54)
+					(name "HO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -1.27 180)
+					(length 2.54)
+					(name "VS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -3.81 180)
+					(length 2.54)
+					(name "VB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 19.05 -6.35 180)
+					(length 2.54)
+					(name "HO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:EFM8BB21F16G-C-QFN20")
+		(at 88.9 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b444853-f545-4b09-b67b-b68ed83fc20b")
+		(property "Reference" "U1"
+			(at 120.65 55.8098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EFM8BB21F16G-C-QFN20"
+			(at 120.65 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-20_L3.0-W3.0-P0.50-BL-EP1.7_EFM8BB21F16G"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/SILICON-LABS_SILICON-LABS_EFM8BB21F16G-C-QFN20_EFM8BB21F16G-C-QFN20_C80713.html"
+			(at 88.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C80713"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1c4bc41-536a-41fd-9b3a-9aed97ab8308")
+		)
+		(pin "7"
+			(uuid "e15a3fb4-fc9c-4aef-8698-6e7cd610fb36")
+		)
+		(pin "10"
+			(uuid "090632a1-d31e-498c-8a05-442da7153532")
+		)
+		(pin "16"
+			(uuid "b0e11311-39a2-47be-b28a-083a3b1f493a")
+		)
+		(pin "6"
+			(uuid "0a0a1171-bab5-427b-ad2b-47547cc42646")
+		)
+		(pin "15"
+			(uuid "cb9ff15f-4cd8-4125-8e95-178687c59add")
+		)
+		(pin "8"
+			(uuid "87d93a92-e5db-43c6-a334-e228f0afec01")
+		)
+		(pin "14"
+			(uuid "1556a941-e160-4de3-9dd3-985953a860de")
+		)
+		(pin "5"
+			(uuid "16b54649-509c-4f01-b13d-b32848b86454")
+		)
+		(pin "21"
+			(uuid "6bfc9143-f312-43e4-b1fd-13f5606cc012")
+		)
+		(pin "3"
+			(uuid "a5a3c6af-885a-4301-9564-c34d26acf0c9")
+		)
+		(pin "11"
+			(uuid "4d91dc1c-253d-4137-9a57-d80851482e99")
+		)
+		(pin "18"
+			(uuid "53bd87ac-8bc5-44dc-8a3b-e90173596357")
+		)
+		(pin "9"
+			(uuid "bc60f997-a1c3-47b6-9a59-9198d5aa92e9")
+		)
+		(pin "2"
+			(uuid "e0748415-e572-4bf6-90e0-dfa0bc444a02")
+		)
+		(pin "19"
+			(uuid "1c2916f0-9218-4fb5-95b5-45f2d2da16d3")
+		)
+		(pin "4"
+			(uuid "8e6bac6c-9107-49d7-a231-de33868a9846")
+		)
+		(pin "20"
+			(uuid "6d0f6d95-8116-4675-9e3a-db2daa7f1666")
+		)
+		(pin "13"
+			(uuid "5b24a7b4-4f4c-41e2-84a1-2fa829176f4d")
+		)
+		(pin "12"
+			(uuid "52df2538-2063-4e67-88a5-a4ff3bba50d4")
+		)
+		(pin "17"
+			(uuid "037dca63-c8a9-463d-8ac4-0788651ce1b8")
+		)
+		(instances
+			(project "hardware_openesc"
+				(path "/fd04cde8-8623-46f8-9b2f-1ba4eb308030/17a5892e-8463-4f7f-85e7-59adc66c582b"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:FD6288Q_C328453")
+		(at 132.08 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec5762c4-ad16-49dd-9896-5a7096837bdd")
+		(property "Reference" "U2"
+			(at 158.75 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FD6288Q_C328453"
+			(at 158.75 116.7698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.6"
+			(at 132.08 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Fortior-Tech-FD6288Q_C328453.html"
+			(at 132.08 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C328453"
+			(at 132.08 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "3d0c9a2d-b971-4c54-afc8-5bcb42ad37c0")
+		)
+		(pin "24"
+			(uuid "7519639d-4627-47f9-9b71-105b8d772838")
+		)
+		(pin "5"
+			(uuid "de34a8d4-1323-4ba7-94f3-4434c9256ad6")
+		)
+		(pin "2"
+			(uuid "a4fc167e-8e11-49ee-9ca8-6961ade17b33")
+		)
+		(pin "4"
+			(uuid "f8dbc04e-c14f-4ed8-af63-b58aba2221f5")
+		)
+		(pin "25"
+			(uuid "927d11af-2b1e-4d3d-9dba-5309c01946d7")
+		)
+		(pin "13"
+			(uuid "3185c72d-0b13-45cd-958f-ad12018c916f")
+		)
+		(pin "20"
+			(uuid "7079c0cc-0c7d-4646-9184-ba51e167140c")
+		)
+		(pin "14"
+			(uuid "17d7b9a4-a022-4c21-bfaa-2b7966b21390")
+		)
+		(pin "19"
+			(uuid "6585ae92-fea8-42c9-ae14-dfdb402e0726")
+		)
+		(pin "16"
+			(uuid "68ccbeb3-bf03-43bd-bdb1-9908435af086")
+		)
+		(pin "21"
+			(uuid "83fe99c2-ff9e-4fbf-bd36-ebffc4a09d91")
+		)
+		(pin "15"
+			(uuid "5beba347-7396-4999-aa3e-ab47e53c1f56")
+		)
+		(pin "23"
+			(uuid "aa745ce9-9d9c-43f0-a887-818c0a7b674e")
+		)
+		(pin "11"
+			(uuid "07ab393b-1110-41b0-aa45-7fe3e77f09a1")
+		)
+		(pin "10"
+			(uuid "ea7dc9f6-b2d1-4a92-b876-e54c50e9f9de")
+		)
+		(pin "3"
+			(uuid "b1aaaee4-9a6f-44db-a943-a9eea8109e66")
+		)
+		(pin "8"
+			(uuid "947a57b7-5595-4f5c-be16-742f61e8513f")
+		)
+		(pin "1"
+			(uuid "3d58124c-8cda-43f6-9fee-41b84947d4fb")
+		)
+		(pin "7"
+			(uuid "e74c0947-c17b-44a2-b5e8-37841b22c101")
+		)
+		(pin "9"
+			(uuid "02261158-bf82-43f3-b8ba-a43140677515")
+		)
+		(pin "18"
+			(uuid "5f466968-7016-44c0-aad4-6094a49c2144")
+		)
+		(pin "17"
+			(uuid "49b52380-35a1-4fa7-916a-5c67f8d411b9")
+		)
+		(pin "12"
+			(uuid "07c8fe66-0251-4e3a-a3fc-44754b1efd0b")
+		)
+		(pin "6"
+			(uuid "21efea05-7a13-4478-832b-ca015cf53f65")
+		)
+		(instances
+			(project "hardware_openesc"
+				(path "/fd04cde8-8623-46f8-9b2f-1ba4eb308030/17a5892e-8463-4f7f-85e7-59adc66c582b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
