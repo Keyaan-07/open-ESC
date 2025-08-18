@@ -6,3 +6,16 @@ I think i have decided a few ICs as they are very popular, they are BB21 somethi
 ![mosfet](/images/17.8/mosfet.png)
 
 ### Time Spent Today: 1 hour
+
+# August 2 2025
+Well idk when did i start with the schematic, but i did a bit of work. I will be doing for a single motor at a time and then just copy paste for 4. because that is what has to be done i guess.
+
+well i did the mosfet connections for it, and now connected them to the driver too  
+there are 2 mosfets per motor per phase and 3 phases so total 6 mosfets per motor.  
+i still have to figure out the use of VB1,2,3 pins on the MOSFET driver  
+
+did some work on the schematic, 
+![1st pic](/images/18.8/mcu%20and%20mosfet%20driver.png)
+![2nd pic](/images/18.8/mosfets.png)
+
+### Time spent today: 45 mins
