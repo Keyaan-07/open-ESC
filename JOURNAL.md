@@ -7,7 +7,7 @@ I think i have decided a few ICs as they are very popular, they are BB21 somethi
 
 ### Time Spent Today: 1 hour
 
-# August 2 2025
+# August 18 2025
 Well idk when did i start with the schematic, but i did a bit of work. I will be doing for a single motor at a time and then just copy paste for 4. because that is what has to be done i guess.
 
 well i did the mosfet connections for it, and now connected them to the driver too  
